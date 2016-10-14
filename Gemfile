@@ -28,8 +28,9 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.2.0'
+  gem 'capybara'
   gem 'test-unit'
+  gem 'factory_girl_rails'
 end
 
 group :doc do
